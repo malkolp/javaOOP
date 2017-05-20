@@ -8,6 +8,7 @@ public class Main {
 
         ArrayList<Profile> profiles = new ArrayList<>();
         ArrayList<Circle> circles = new ArrayList<>();
+        profiles.add(new Profile("Nur Aisyiatul", "nuraisyiatul12@gmail.com"));
         HashMap<String, Circle> circleHashMap = new HashMap<>();
     }
 
