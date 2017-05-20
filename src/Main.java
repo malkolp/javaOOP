@@ -73,8 +73,10 @@ public class Main
         System.out.println(group.containsKey("Circle Teman SMA"));
         System.out.println(group.containsKey("Circle Teman Kuliah"));
         System.out.println(group.containsKey("Circle Keluarga"));
+        System.out.println(group.containskey("Circle Tetangga"));
         
-        for (Circle c:group.values()){
+        for (Circle c:group.values())
+        {
 
             System.out.println("Nama            : "+c.getProfile().getNama());
             System.out.println("Email           : "+c.getProfile().getEmail());
