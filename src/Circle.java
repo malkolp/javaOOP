@@ -12,7 +12,11 @@ public class Circle implements Comparable<Circle> {
         this.profile5 = profile5;
         this.profile6 = profile6;
     }
-
+    
+    public void setProfile(Profile profile){
+        this.profile = profile;
+    }
+    
     public Profile getProfile() {
         return profile;
     }
