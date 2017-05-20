@@ -2,6 +2,24 @@
 public class Circle implements Comparable<Circle> {
 
     private Profile profile,profile1,profile2,profile3,profile4,profile5,profile6;
+    
+    public Circle(Profile profile, Profile profile1){
+        this.profile = profile;
+        this.profile1 = profile1;
+    }
+    
+    public Circle(Profile profile, Profile profile1, Profile profile2){
+        this.profile = profile;
+        this.profile1 = profile1;
+        this.profile2 = profile2;
+    }
+    
+    public Circle(Profile profile, Profile profile1, Profile profile2, Profile profile3){
+        this.profile = profile;
+        this.profile1 = profile1;
+        this.profile2 = profile2;
+        this.profile3 = profile3;
+    }
 
     public Circle(Profile profile, Profile profile1, Profile profile2, Profile profile3, Profile profile4, Profile profile5, Profile profile6){
         this.profile = profile;
