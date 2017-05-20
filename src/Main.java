@@ -26,8 +26,8 @@ public class Main {
         profiles.add(new Profile("Asty Astuti", "asty98@gmail.com"));
         profiles.add(new Profile("Faradhanti", "fara31@gmail.com"));
         profiles.add(new Profile("Gita Ismi", "gitgita06@gmail.com"));
-        
-        
+        profiles.add(new Profile("Bella Cintya", "bella45@gmail.com"));
+        profiles.add(new Profile("Nisviatul Mubarokah", "nisviatul35@gmail.com"));
         
         HashMap<String, Circle> circleHashMap = new HashMap<>();
     }
