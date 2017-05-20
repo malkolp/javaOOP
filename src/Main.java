@@ -40,6 +40,9 @@ public class Main {
         profiles.add(new Profile("Nisviatul Mubarokah", "nisviatul35@gmail.com"));
         
         HashMap<String, Circle> circleHashMap = new HashMap<>();
+        
+        group.put("Circle Teman SD",new Circle(profiles.get(0),profiles.get(1),profiles.get(2)));
+        group.put("Circle Teman SMP",new Circle(profiles.get(3),profiles.get(4),profiles.get(5),profiles.get(6)));
     }
 
 }
