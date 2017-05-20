@@ -41,16 +41,13 @@ public class Main {
         
         profiles.add(new Profile("Zivatul Ulya", "ziva1@gmail.com"));
         profiles.add(new Profile("Khairiyah", "Khairiyah@gmail.com"));
-        
-        
+       
         profiles.add(new Profile("Merryandy Putri", "Merry11@gmail.com"));
         profiles.add(new Profile("Irvan Dana", "Irvan69@gmail.com"));
         
-        
-        
         HashMap<String, Circle> circleHashMap = new HashMap<>();
         
-        group.put("Circle Teman SD",new Circle(profiles.get(0),profiles.get(1),profiles.get(2)));
+        group.put("Circle Teman SD",new Circle(profiles.get(0),profiles.get(1),profiles.get(2),profiles.get(23),profiles.get(24)));
         group.put("Circle Teman SMP",new Circle(profiles.get(3),profiles.get(4),profiles.get(5),profiles.get(6)));
         group.put("Circle Teman SMA",new Circle(profiles.get(7),profiles.get(8),profiles.get(9),profiles.get(10),profiles.get(21),profiles.get(22));
         group.put("Circle Teman Kuliah",new Circle(profies.get(11),profiles.get(12),profiles.get(13),profiles.get(14),profiles.get(15)));
