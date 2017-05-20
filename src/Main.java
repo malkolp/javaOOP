@@ -56,14 +56,17 @@ public class Main
         profiles.add(new Profile("Nabila Valda", "valda09@gmail.com"));
         profiles.add(new Profile("Liftya Asfi", "liftya33@gmail.com"));
         
+        profiles.add(new Profile("Rakabuming Raka", "rakabumi259@gmail.com"));
+        profiles.add(new Profile("Magenta Bagaskara", "bagas76@gmail.com"));
+        
         HashMap<String, Circle> circleHashMap = new HashMap<>();
         
         group.put("Circle Teman SD",new Circle(profiles.get(0),profiles.get(1),profiles.get(2),profiles.get(23),profiles.get(24)));
-        group.put("Circle Teman SMP",new Circle(profiles.get(3),profiles.get(4),profiles.get(5),profiles.get(6),profiles.get(29)));
+        group.put("Circle Teman SMP",new Circle(profiles.get(3),profiles.get(4),profiles.get(5),profiles.get(6),profiles.get(29),profiles.get(31),profiles.get(32));
         group.put("Circle Teman SMA",new Circle(profiles.get(7),profiles.get(8),profiles.get(9),profiles.get(10),profiles.get(21),profiles.get(22));
         group.put("Circle Teman Kuliah",new Circle(profies.get(11),profiles.get(12),profiles.get(13),profiles.get(14),profiles.get(15)));
         group.put("Circle Keluarga",new Circle(profiles.get(16),profiles.get(17),profiles.get(18),profiles.get(19),profiles.get(20)));
-        group.put("Circle Tetangga", new Circle(profiles.get(22),profiles.get(25),profiles.get(26),profiles.get(27),profiles.get(28),profiles.get(30)));
+        group.put("Circle Tetangga", new Circle(profiles.get(25),profiles.get(26),profiles.get(27),profiles.get(28),profiles.get(29),profiles.get(30)));
                   
         System.out.println(group.containsKey("Circle Teman SD"));
         System.out.println(group.containsKey("Circle Teman SMP"));
@@ -71,8 +74,7 @@ public class Main
         System.out.println(group.containsKey("Circle Teman Kuliah"));
         System.out.println(group.containsKey("Circle Keluarga"));
         
-        for (Circle c:group.values())
-        {
+        for (Circle c:group.values()){
 
             System.out.println("Nama            : "+c.getProfile().getNama());
             System.out.println("Email           : "+c.getProfile().getEmail());
