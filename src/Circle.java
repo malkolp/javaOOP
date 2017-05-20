@@ -1,7 +1,7 @@
 //circle class
 public class Circle implements Comparable<Circle> {
 
-    private Profile profile,profile1,profile2,profile3,profile4,profile5,profile6,profile7,profile8,profile9,profile10;
+    private Profile profile,profile1,profile2,profile3,profile4,profile5,profile6,profile7,profile8;
     
     public Circle(Profile profile, Profile profile1){
         this.profile = profile;
