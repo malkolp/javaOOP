@@ -8,6 +8,11 @@ public class Profile implements Comparable<Profile>{
         this.email = email;
     }
 
+    public Profile(){
+        this.nama = "";
+        this.email = "";
+    }
+
     @Override
     public int compareTo(Profile p) {
         return 0;
