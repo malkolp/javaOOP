@@ -59,7 +59,6 @@ public class Circle implements Comparable<Circle> {
         this.profile = profile7;
         
         
-    
     public void setProfile(Profile profile){
         this.profile = profile;
     }
