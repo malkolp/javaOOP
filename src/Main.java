@@ -45,11 +45,13 @@ public class Main {
         group.put("Circle Teman SMP",new Circle(profiles.get(3),profiles.get(4),profiles.get(5),profiles.get(6)));
         group.put("Circle Teman SMA",new Circle(profiles.get(7),profiles.get(8),profiles.get(9),profiles.get(10)));
         group.put("Circle Teman Kuliah",new Circle(profies.get(11),profiles.get(12),profiles.get(13),profiles.get(14),profiles.get(15)));
+        group.put("Circle Keluarga",new Circle(profiles.get(16),profiles.get(17),profiles.get(18),profiles.get(19),profiles.get(20)));
         
         System.out.println(group.containsKey("Circle Teman SD"));
         System.out.println(group.containsKey("Circle Teman SMP"));
         System.out.println(group.containsKey("Circle Teman SMA"));
         System.out.println(group.containsKey("Circle Teman Kuliah"));
+        System.out.println(group.containsKey("Circle Keluarga"));
         
         for (Circle c:group.values()){
             System.out.println("Nama            : "+c.getProfile().getNama());
